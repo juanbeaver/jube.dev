@@ -2,7 +2,7 @@
 layout: page
 title: VibeCane — Haptic Navigation Assistive Cane
 description: RP2040-powered assistive cane with ultrasonic obstacle detection and haptic feedback
-img: assets/img/1.jpg
+img: assets/img/9.jpg
 importance: 2
 category: projects
 ---
