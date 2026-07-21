@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: jube.dev/sitemap.xml
