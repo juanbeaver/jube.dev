@@ -135,6 +135,11 @@
   .card .when { font-size: 0.78rem; color: var(--muted); }
   .card p { font-size: 0.9rem; color: var(--muted); flex: 1; }
   .card .tags { margin-top: auto; }
+  .ghlink {
+    display: inline-block; margin-top: 8px; font-size: 0.82rem; font-weight: 600;
+    color: var(--accent); text-decoration: none;
+  }
+  .ghlink:hover { text-decoration: underline; }
 
   /* Education & publication */
   .plain { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; }
@@ -277,6 +282,7 @@
         <span class="when">Aug 2025 – Dec 2025</span>
         <p>Dual-toolhead/toolchanger stack running Klipper on an STM32H723. Custom macros for tool select, safe homing, and BLTouch bed routines; TMC5160 drivers tuned over SPI with log-driven motion diagnostics.</p>
         <div class="tags"><span class="tag">Klipper</span><span class="tag">STM32</span><span class="tag">TMC5160</span></div>
+        <a class="ghlink" href="https://github.com/juanbeaver/toolchanger-3d-printer" target="_blank" rel="noopener">View on GitHub &#8599;</a>
       </div>
 
       <div class="card">
@@ -285,6 +291,7 @@
         <span class="when">Dec 2024</span>
         <p>Haptic navigation cane for visually impaired users. Ultrasonic arrays detect obstacles in a 170° cone and drop-offs below the tip, mapped to haptic motors on the handle and a wearable bracelet.</p>
         <div class="tags"><span class="tag">RP2040</span><span class="tag">Ultrasonics</span><span class="tag">Haptics</span></div>
+        <a class="ghlink" href="https://github.com/juanbeaver/vibecane" target="_blank" rel="noopener">View on GitHub &#8599;</a>
       </div>
 
       <div class="card">
@@ -293,6 +300,7 @@
         <span class="when">Dec 2024 – Jun 2025</span>
         <p>Motorized photogrammetry rig (ESP32 + steppers) with an SfM pipeline that reconstructs 3D arm meshes from unconventionally captured images for at-home volumetric tracking.</p>
         <div class="tags"><span class="tag">ESP32</span><span class="tag">SfM</span><span class="tag">CAD</span></div>
+        <a class="ghlink" href="https://github.com/juanbeaver/3d-arm-scanning" target="_blank" rel="noopener">View on GitHub &#8599;</a>
       </div>
 
       <div class="card">
@@ -301,6 +309,7 @@
         <span class="when">Aug 2024 – Dec 2025</span>
         <p>Poroelasticity measurement device for lymphedema monitoring. Custom KiCad LVDT read-out board with sub-micron resolution and &lt; 5 µV RMS noise; closed-loop motion control with Python GUI.</p>
         <div class="tags"><span class="tag">KiCad</span><span class="tag">LVDT</span><span class="tag">PID</span></div>
+        <a class="ghlink" href="https://github.com/juanbeaver/tonometry-instrument" target="_blank" rel="noopener">View on GitHub &#8599;</a>
       </div>
 
       <div class="card">
@@ -309,6 +318,7 @@
         <span class="when">Aug 2022 – Aug 2023</span>
         <p>Adaptive RC controller for children with cerebral palsy: a microcontroller drives OEM board inputs from up to four 3.5 mm accessibility switches. Three controllers deployed with United Cerebral Palsy.</p>
         <div class="tags"><span class="tag">Accessibility</span><span class="tag">Embedded</span><span class="tag">3D printing</span></div>
+        <a class="ghlink" href="https://github.com/juanbeaver/assistive-rc-cars" target="_blank" rel="noopener">View on GitHub &#8599;</a>
       </div>
 
       <div class="card">
@@ -317,6 +327,7 @@
         <span class="when">Ongoing</span>
         <p>AI-assisted 3D printing project — details coming soon.</p>
         <div class="tags"><span class="tag">ML</span><span class="tag">3D printing</span></div>
+        <a class="ghlink" href="https://github.com/juanbeaver/enderflex-ai" target="_blank" rel="noopener">View on GitHub &#8599;</a>
       </div>
 
     </div>
